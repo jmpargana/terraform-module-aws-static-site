@@ -1,6 +1,6 @@
 # terraform-module-aws-static-site
 
-Plug-and-play module to deploy static frontend application
+Plug-and-play module to deploy static frontend applications.
 
 ## TODO
 
@@ -10,7 +10,6 @@ Plug-and-play module to deploy static frontend application
 - [ ] Fix OAI vs OAC
 - [ ] Allow subdomains (ex. api) + API Gateway pointing
 - [ ] Investigate `namecheap` provider -> could be part of module caller
-- [ ] Automate publishing + documentation
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
