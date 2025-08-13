@@ -1,4 +1,4 @@
-name: Generate terraform docs
+name: Release
 on:
   push:
     branches:
@@ -32,4 +32,6 @@ jobs:
         extra_plugins: |
           @semantic-release/changelog@6.0.3
           @semantic-release/git
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
